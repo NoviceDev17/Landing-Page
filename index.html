@@ -5,33 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
-        .subtext-container{
-            display:flex;
-            flex-wrap: wrap;
-            gap:20px;
-            justify-content: center;
-        }
-        .subtext{
-            width:200px;
-        }
-        .frame{
-            width:200px;
-            height:200px;
-            border: blue 4px solid;
-            border-radius: 10px;
-            box-sizing: border-box;
-        }
-        .text{
-            text-align: center;
-        }
-        .information-header{
-            font-size:36px;
-            color:#1F2937;
-            font-weight:900;
-            text-align: center;
-            margin-bottom:20px;
-        }
+      .button-1{
+        background-color:#3882F8;
+        border:none;
+        color:white;
+        padding:5px 20px;
+        font-weight:bold;
+        border-radius:5px;
+      }
+      .button-2{
+        background-color:#3882F8;
+        border:white solid 1px;
+        color:white;
+        padding:5px 20px;
+        font-weight:bold;
+        border-radius:5px;
+      }
     </style>
 </head>
 <body>
@@ -49,7 +40,7 @@
                 <div class="left-section">
                     <p class="p-1">This website is awesome</p>
                     <p class="p-2">The website has some subtext that goes here under the main title. It's a smaller font and the coloris lower contrast</p>
-                    <button>Sign Up</button>
+                    <button class="button-1">Sign Up</button>
                 </div>
                 <div class="right-section">
                     <div class="placeholder">this is a placeholder for an image</div>
@@ -77,8 +68,23 @@
                     <div class="frame"></div>
                     <p class="text">some random text, i have no clue what i am doing </p>
                 </div>
-                
             </div>
+        </div>
+    </div>
+    <div class="content-2">
+        <div class="container">
+            <p class="inspiring-text">This is an inspiring quote, or a testimonial from a customer. Maybe it's jus filling up space ,ot maybe people will actually read it.Who knows? All i know is that it looks nice</p>
+            <p class="author">-Thor, God of Thunder</p>
+        </div>
+    </div>
+    <div class="content-3">
+        <div class="signup-label">
+            <p style="color:#F9FAF8;">Call to action!It's time!</p>
+            <div class="signup">
+                <p>Sign up for our product by clicking that button, right over there!</p>
+                <button class="button-2">Sign up</button>
+            </div>
+            
         </div>
     </div>
 </body>
